@@ -17,7 +17,7 @@
   <tbody>
     {% for squirrel in squirrels %}
     <tr>
-      <th scope="row"><a href="/sightings/{{ squirrel.unique_Squirrel_ID}}">link of squirrel {{ squirrel.unique_Squirrel_ID}}</a></th>
+      <th scope="row"><a href="/squirrel/sightings/{{ squirrel.unique_Squirrel_ID}}">link of squirrel {{ squirrel.unique_Squirrel_ID}}</a></th>
       <td>{{squirrel.unique_Squirrel_ID}}</td>
       <td>{{squirrel.date}}</td>
     </tr>
