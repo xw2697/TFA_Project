@@ -31,12 +31,12 @@ def stats(request):
     adult = len(squirrels.filter(age='Adult'))
     juvenile = len(squirrels.filter(age='Juvenile'))
     age_missing = total - adult - juvenile
-    percent_am = am / total * 100
-    percent_pm = pm / total * 100
-    percent_shift_missing = shift_missing / total * 100
-    percent_adult = adult / total * 100
-    percent_juvenile = juvenile / total * 100
-    percent_age_missing = age_missing / total * 100
+    percent_am = round(am / total * 100, 2)
+    percent_pm = round(pm / total * 100, 2)
+    percent_shift_missing = round(shift_missing / total * 100, 2)
+    percent_adult = round(adult / total * 100, 2)
+    percent_juvenile = round(juvenile / total * 100, 2)
+    percent_age_missing = round(age_missing / total * 100, 2)
 
     return render(request, 'sightings/stats.html', {
         'Total': total,
@@ -46,11 +46,11 @@ def stats(request):
         'Percent_pm': percent_pm,
         'Shift_missing': shift_missing,
         'Percent_shift_missing':percent_shift_missing,
-        'Adults': adult,
-        'Percent_adult':percent_adult,
+        'Adult': adult,
+        'Percent_adult': percent_adult,
         'Juvenile': juvenile,
-        'Percent_juvenile':percent_juvenile,
+        'Percent_juvenile': percent_juvenile,
         'Age_missing': age_missing,
-        'Percent_age_missing':percent_age_missing,
+        'Percent_age_missing': percent_age_missing,
 
     })
