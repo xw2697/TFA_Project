@@ -3,6 +3,8 @@ from . import views
 
 urlpatterns = [
     path('', views.index),
-    path('list/', views.list_squirrel),
-    path('<squirrel_id>/', views.get_squirrel),
+    path('map/', views.get_map),
+    path('sightings/', views.list_squirrel),
+    path('sightings/<unique_Squirrel_ID>/', views.get_squirrel),
+    path('sightings/stats', views.stats),
 ]
