@@ -3,7 +3,7 @@
 ### Group Information
 UNIs: [xw2697,xm2237]
 
-Group name: Project Group 18
+Group name: Project Group 18, Section001
 
 The link to the server running my application: https://xw2697.uk.r.appspot.com/squirrel
 
@@ -19,9 +19,11 @@ a particular squirrel and general stats about the sightings.
 This web framework includes views:
 
 * A map that displays the location of the squirrel sightings. Located at: /map
+The link to see the map: https://xw2697.uk.r.appspot.com/squirrel/map
 
 * A view lists all squirrel sightings and corresponding links to view each sighting. 
 It has fields: (1)Unique Squirrel ID, (2)Date and (3)Link to unique squirrel sighting. Located at: /sightings
+The link to see the list of squirrels: https://xw2697.uk.r.appspot.com/squirrel/sightings
 
 * A view to update a particular sighting. It has fields: (1)Latitude, (2)Longitude, (3)Unique Squirrel ID, (4)Shift, 
 (5)Date and (6)Age. Located at: /sightings/<unique-squirrel-id>
@@ -30,6 +32,7 @@ It has fields: (1)Unique Squirrel ID, (2)Date and (3)Link to unique squirrel sig
 (2)Total numbers and percentages of different Shifts, (3)Missing data infomation about Shifts,
 (4)Total numbers and percentages of different Ages, (5)Missing data infomation about Ages.
 Located at: /sightings/stats
+The link to see stats: https://xw2697.uk.r.appspot.com/squirrel/sightings/stats
 
 
 ### Where to get it?
