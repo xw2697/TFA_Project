@@ -5,7 +5,7 @@ UNIs: [xw2697,xm2237]
 
 Group name: Project Group 18
 
-The link to the server running my application: https://xw2697.uk.r.appspot.com/
+The link to the server running my application: https://xw2697.uk.r.appspot.com/squirrel
 
 ### What is it?
 This Django based web framework tries to keep tracks of all the known squirrels and plans to start with Central Park. 
