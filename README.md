@@ -2,7 +2,9 @@
 
 ### Group Information
 UNIs: [xw2697,xm2237]
+
 Group name: Project Group 18
+
 The link to the server running my application: https://xw2697.uk.r.appspot.com/
 
 ### What is it?
