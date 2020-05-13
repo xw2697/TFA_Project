@@ -20,12 +20,12 @@ This web framework includes views:
 
 * A map that displays the location of the squirrel sightings. Located at: /map
 
-The link to see the map: https://xw2697.uk.r.appspot.com/squirrel/map
+  The link to see the map: https://xw2697.uk.r.appspot.com/squirrel/map
 
 * A view lists all squirrel sightings and corresponding links to view each sighting. 
 It has fields: (1)Unique Squirrel ID, (2)Date and (3)Link to unique squirrel sighting. Located at: /sightings
 
-The link to see the list of squirrels: https://xw2697.uk.r.appspot.com/squirrel/sightings
+  The link to see the list of squirrels: https://xw2697.uk.r.appspot.com/squirrel/sightings
 
 * A view to update a particular sighting. It has fields: (1)Latitude, (2)Longitude, (3)Unique Squirrel ID, (4)Shift, 
 (5)Date and (6)Age. Located at: /sightings/<unique-squirrel-id>
@@ -35,7 +35,7 @@ The link to see the list of squirrels: https://xw2697.uk.r.appspot.com/squirrel/
 (4)Total numbers and percentages of different Ages, (5)Missing data infomation about Ages.
 Located at: /sightings/stats
 
-The link to see stats: https://xw2697.uk.r.appspot.com/squirrel/sightings/stats
+  The link to see stats: https://xw2697.uk.r.appspot.com/squirrel/sightings/stats
 
 
 ### Where to get it?
